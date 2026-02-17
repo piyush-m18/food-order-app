@@ -9,7 +9,7 @@ import CartItem from "./CartItem";
 export default function Cart() {
   const cartCtx = useContext(CartContext);
   const userProgressCtx = useContext(UserProgressContext);
-
+  console.log(userProgressCtx)
   const cartTotal = cartCtx.items.reduce(
     (totalPrice, item) => totalPrice + item.quantity * item.price,
     0,
