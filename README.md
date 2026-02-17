@@ -24,50 +24,50 @@ Users can browse meals, manage their cart, and place orders — with clean UI co
 
 ## 📁 Project Structure
 
-FOOD-ORDER-APP/
-├── backend/
-│   ├── data/
-│   ├── public/
-│   ├── app.js
-│   └── package.json
-│
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── UI/
-│   │   ├── Cart.jsx
-│   │   ├── CartItem.jsx
-│   │   ├── Checkout.jsx
-│   │   ├── Error.jsx
-│   │   ├── Header.jsx
-│   │   ├── MealItem.jsx
-│   │   └── Meals.jsx
-│   │
-│   ├── hooks/
-│   │   └── useHttp.jsx
-│   │
-│   ├── store/
-│   │   ├── CartContext.jsx
-│   │   └── UserProgress.jsx
-│   │
-│   ├── utils/
-│   │   └── formatting.js
-│   │
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-│
-├── vite.config.js
-└── README.md
+- FOOD-ORDER-APP/
+- ├── backend/
+- │   ├── data/
+- │   ├── public/
+- │   ├── app.js
+- │   └── package.json
+- │
+- ├── public/
+- ├── src/
+- │   ├── assets/
+- │   ├── components/
+- │   │   ├── UI/
+- │   │   ├── Cart.jsx
+- │   │   ├── CartItem.jsx
+- │   │   ├── Checkout.jsx
+- │   │   ├── Error.jsx
+- │   │   ├── Header.jsx
+- │   │   ├── MealItem.jsx
+- │   │   └── Meals.jsx
+- │   │
+- │   ├── hooks/
+- │   │   └── useHttp.jsx
+- │   │
+- │   ├── store/
+- │   │   ├── CartContext.jsx
+- │   │   └── UserProgress.jsx
+- │   │
+- │   ├── utils/
+- │   │   └── formatting.js
+- │   │
+- │   ├── App.jsx
+- │   ├── main.jsx
+- │   └── index.css
+- │
+- ├── vite.config.js
+- └── README.md
 
 ## For Running
 
 ### **Frontend**
-npm install
-npm run dev
+- npm install
+- npm run dev
 
 ### **Backend**
-cd backend
-npm install
-node app.js
+- cd backend
+- npm install
+- node app.js
